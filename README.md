@@ -9,7 +9,7 @@ It reads CSV files from a configurable location, parses each record into structu
 1. **Clone the Repository**
 
 ```bash
-https://github.com/Sharmil001/kelp-challenge.git
+git clone https://github.com/Sharmil001/kelp-challenge.git
 cd kelp-challenge
 ```
 
