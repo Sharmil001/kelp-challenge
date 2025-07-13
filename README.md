@@ -13,21 +13,21 @@ git clone https://github.com/Sharmil001/kelp-challenge.git
 cd kelp-challenge
 ```
 
-2. **Install Dependencies
+2. **Install Dependencies**
 ```bash
 pnpm install
 # or
 npm install
 ```
 
-3. **Configure Environment Variables
+3. **Configure Environment Variables**
 ```bash
 CSV_FILE_PATH=./src/data/users.csv
 DATABASE_URL=`your postgress db URL`
 PORT=3000
 ```
 
-4. Run App
+4. **Run App**
 ```bash
 pnpm start
 # or
