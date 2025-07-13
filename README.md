@@ -23,7 +23,7 @@ npm install
 3. **Configure Environment Variables
 ```bash
 CSV_FILE_PATH=./src/data/users.csv
-DATABASE_URL=`your postgress db rul`
+DATABASE_URL=`your postgress db URL`
 PORT=3000
 ```
 
