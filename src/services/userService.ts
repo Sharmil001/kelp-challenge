@@ -3,7 +3,7 @@ import { insertUserInBatch, pool } from "../db";
 
 export async function uploadCSVData() {
 	const users = await parseCSV();
-	console.log("Parsing CSV file successful...!");
+	console.log("CSV file parsed successfully...!");
 	await insertUserInBatch(users, 500);
 	console.log("Data uploaded to database successfully...!");
 }
